@@ -148,7 +148,6 @@ fieldset {
 
 .search-form__pseudo-checkbox::before {
 	content: '';
-	position: absolute;
 	width: 15px;
 	height: 15px;
 }
@@ -209,6 +208,7 @@ fieldset {
 	flex-direction: column;
 	height: 303px;
 	overflow: auto;
+	min-width: 404px;
 }
 
 .content__list-item {
@@ -257,6 +257,7 @@ fieldset {
 	font-size: 30px;
 	font-weight: 700;
 	text-transform: uppercase;
+	word-break: break-all;
 }
 
 .content__video-card-description {

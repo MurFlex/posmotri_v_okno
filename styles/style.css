@@ -54,7 +54,6 @@ fieldset {
 	display: flex;
 	align-items: end;
 	gap: 30px;
-	min-height: 523px;
 }
 
 .result__video-container {
@@ -90,11 +89,6 @@ fieldset {
 	align-items: center;
 	outline: none;
 	cursor: pointer;
-}
-
-.search-form__label:focus {
-	border: 1px solid currentColor;
-	outline: none;
 }
 
 .search-form__textfield {
@@ -261,8 +255,9 @@ fieldset {
 	font-style: normal;
 }
 
-.content__video-card-description-container:hover {
+.content__card-link:hover {
 	text-decoration: underline;
+	text-decoration-color: #fff;
 }
 
 .content__video-card-title {
@@ -282,6 +277,9 @@ fieldset {
 	font-weight: normal;
 	line-height: 16.2px;
 	max-width: 200px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 .content__video-card-thumbnail {
